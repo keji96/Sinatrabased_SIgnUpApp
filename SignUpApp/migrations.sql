@@ -1,0 +1,8 @@
+CREATE DATABASE my_fans;
+\c my_fans
+
+CREATE TABLE fans (
+id SERIAL PRIMARY KEY,
+name VARCHAR(255),
+email VARCHAR(255)
+);
